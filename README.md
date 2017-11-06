@@ -7,13 +7,6 @@ Accepts as input a student ID, which is used to query a MySQL database, and outp
 
 Database parameters are loaded from `db.properties`.
 
-Example `db.properties` file:
-```
-user=loehrj
-password=[redacted]
-url=jdbc:mysql://mysql.cs.wwu.edu:3306/loehrj?autoReconnect=true&useSSL=false
-```
-
 Example output:
 ```
 Enter ID: 12345
