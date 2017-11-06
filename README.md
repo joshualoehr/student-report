@@ -1,4 +1,4 @@
-# student-report
+# Student Report
 Simple program for printing a student report - uses JDBC, MySQL. 
 
 Requires access to MySQL database at `mysql.cs.wwu.edu:3306/loehrj`.
