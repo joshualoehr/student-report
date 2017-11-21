@@ -5,7 +5,13 @@ Requires access to MySQL database at `mysql.cs.wwu.edu:3306/loehrj`.
 
 Accepts as input a student ID, which is used to query a MySQL database, and outputs the student's name, transcript, and GPA. GPA is calculated via the stored procedure in `calculate_gpa_proc.sql`.
 
-Database parameters are loaded from `db.properties`.
+Database parameters are loaded from `db.properties`. Example:
+```
+# MySQL DB Parameters
+user=<username>
+password=<password>
+url=jdbc:mysql://mysql.cs.wwu.edu:3306/loehrj?autoReconnect=true&useSSL=false
+```
 
 Example output:
 ```
